@@ -10,16 +10,16 @@ insert into user_details(user_id,password,name,city,email,phone)  values("C1008"
 insert into user_details(user_id,password,name,city,email,phone)  values("C1009","Robert123","Robert","Chennai","Robert@gmail.com","8790987678");
 insert into user_details(user_id,password,name,city,email,phone)  values("C10010","Jack123","Jack","Chennai","Jack@gmail.com","9870980987");
 
-insert into creditcard_details values("1234123412341234","Jack","313","123123","Jan","2020","15000");
-insert into creditcard_details values("8909876789095645","Joy","879","909890","Feb","2020","15000");
-insert into creditcard_details values("8766790098543212","John","876","987909","Mar","2020","15000");
-insert into creditcard_details values("8909876543456789","Tom","890","321456","Sep","2020","15000");
-insert into creditcard_details values("9098789098765434","Tim","844","678909","Jan","2020","15000");
-insert into creditcard_details values("8999087112343213","Robert","546","890987","Jan","2020","15000");
-insert into creditcard_details values("5678769909878932","Jerry","879","909876","Feb","2020","15000");
-insert into creditcard_details values("7776789098767890","Jack","443","909888","Oct","2020","15000");
-insert into creditcard_details values("9870987123456789","Jack","556","345671","Nov","2020","15000");
-insert into creditcard_details values("8909876543212345","Jack","809","567711","Dec","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("1234123412341234","Jack","313","123123","Jan","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8909876789095645","Joy","879","909890","Feb","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8766790098543212","John","876","987909","Mar","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8909876543456789","Tom","890","321456","Sep","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("9098789098765434","Tim","844","678909","Jan","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8999087112343213","Robert","546","890987","Jan","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("5678769909878932","Jerry","879","909876","Feb","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("7776789098767890","Jack","443","909888","Oct","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("9870987123456789","Jack","556","345671","Nov","2020","15000");
+insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8909876543212345","Jack","809","567711","Dec","2020","15000");
 
 insert into flight_details(flight_id,airlines,source,destination,fare,flight_available_date,departure_time,arrival_time,
 seat_count)  values("F101","WingMeIn","Chennai","Noida",15000.00,

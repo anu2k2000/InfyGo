@@ -1,14 +1,14 @@
 
-insert into user_details values("C1001","Jack1234","Jack","Chennai","Jack@gmail.com","1234123412");
-insert into user_details values("C1002","John1234","John","Chennai","John@gmail.com","9878909876");
-insert into user_details values("C1003","Joy12345","Joy","Chennai","Joy@gmail.com","7890987656");
-insert into user_details values("C1004","Angel1236","Angel","Chennai","Angel@gmail.com","9888767890");
-insert into user_details values("C1005","Tom23467","Tom","Chennai","Tom@gmail.com","9876567809");
-insert into user_details values("C1006","Tim23478","Tim","Chennai","Tim@gmail.com","9098789098");
-insert into user_details values("C1007","Jerry1234","Jerry","Chennai","Jerry@gmail.com","9098789098");
-insert into user_details values("C1008","Jack1237","Jack","Chennai","Jack@gmail.com","9876567899");
-insert into user_details values("C1009","Robert123","Robert","Chennai","Robert@gmail.com","8790987678");
-insert into user_details values("C10010","Jack123","Jack","Chennai","Jack@gmail.com","9870980987");
+insert into user_details(user_id,password,name,city,email,phone) values("C1001","Jack1234","Jack","Chennai","Jack@gmail.com","1234123412");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1002","John1234","John","Chennai","John@gmail.com","9878909876");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1003","Joy12345","Joy","Chennai","Joy@gmail.com","7890987656");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1004","Angel1236","Angel","Chennai","Angel@gmail.com","9888767890");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1005","Tom23467","Tom","Chennai","Tom@gmail.com","9876567809");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1006","Tim23478","Tim","Chennai","Tim@gmail.com","9098789098");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1007","Jerry1234","Jerry","Chennai","Jerry@gmail.com","9098789098");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1008","Jack1237","Jack","Chennai","Jack@gmail.com","9876567899");
+insert into user_details(user_id,password,name,city,email,phone)  values("C1009","Robert123","Robert","Chennai","Robert@gmail.com","8790987678");
+insert into user_details(user_id,password,name,city,email,phone)  values("C10010","Jack123","Jack","Chennai","Jack@gmail.com","9870980987");
 
 insert into creditcard_details values("1234123412341234","Jack","313","123123","Jan","2020","15000");
 insert into creditcard_details values("8909876789095645","Joy","879","909890","Feb","2020","15000");

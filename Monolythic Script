@@ -1,4 +1,10 @@
 
+create database db_irs_user;
+create database db_irs_payment;
+create database db_irs_booking;
+create database db_irs_flight;
+
+use db_irs_user;
 insert into user_details(user_id,password,name,city,email,phone) values("C1001","Jack1234","Jack","Chennai","Jack@gmail.com","1234123412");
 insert into user_details(user_id,password,name,city,email,phone)  values("C1002","John1234","John","Chennai","John@gmail.com","9878909876");
 insert into user_details(user_id,password,name,city,email,phone)  values("C1003","Joy12345","Joy","Chennai","Joy@gmail.com","7890987656");
@@ -9,7 +15,7 @@ insert into user_details(user_id,password,name,city,email,phone)  values("C1007"
 insert into user_details(user_id,password,name,city,email,phone)  values("C1008","Jack1237","Jack","Chennai","Jack@gmail.com","9876567899");
 insert into user_details(user_id,password,name,city,email,phone)  values("C1009","Robert123","Robert","Chennai","Robert@gmail.com","8790987678");
 insert into user_details(user_id,password,name,city,email,phone)  values("C10010","Jack123","Jack","Chennai","Jack@gmail.com","9870980987");
-
+use db_irs_payment;
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("1234123412341234","Jack","313","123123","Jan","2020","15000");
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8909876789095645","Joy","879","909890","Feb","2020","15000");
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8766790098543212","John","876","987909","Mar","2020","15000");
@@ -20,7 +26,7 @@ insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_mont
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("7776789098767890","Jack","443","909888","Oct","2020","15000");
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("9870987123456789","Jack","556","345671","Nov","2020","15000");
 insert into creditcard_details(card_number,card_holder_name,cvv,apin,expiry_month,expiry_year,total_bill) values("8909876543212345","Jack","809","567711","Dec","2020","15000");
-
+use db_irs_flight;
 insert into flight_details(flight_id,airlines,source,destination,fare,flight_available_date,departure_time,arrival_time,
 seat_count)  values("F101","WingMeIn","Chennai","Noida",15000.00,
 DATE_ADD(CURDATE(), INTERVAL 2 MONTH) ,"08:15","16:45",15); 
@@ -163,7 +169,7 @@ insert into flight_details(flight_id,airlines,source,destination,fare,flight_ava
 seat_count) values("F1045","WingMeIn","Chennai","Noida",3400.00,
 DATE_ADD(CURDATE(), INTERVAL 4 DAY),"20:50","24:00",7);
 
-
+use db_irs_booking;
 INSERT INTO passenger_details(passenger_id,passenger_name,passenger_age,passenger_gender,ticket_pnr) VALUES (101,'Jack',52,'M','564789');
 INSERT INTO passenger_details(passenger_id,passenger_name,passenger_age,passenger_gender,ticket_pnr) VALUES (102,'Joy',23,'F','456678');
 INSERT INTO passenger_details(passenger_id,passenger_name,passenger_age,passenger_gender,ticket_pnr) VALUES (103,'Robert',45,'M','345223');

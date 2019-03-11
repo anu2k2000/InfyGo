@@ -1,6 +1,27 @@
 
+insert into user_details values("C1001","Jack1234","Jack","Chennai","Jack@gmail.com","1234123412");
+insert into user_details values("C1002","John1234","John","Chennai","John@gmail.com","9878909876");
+insert into user_details values("C1003","Joy12345","Joy","Chennai","Joy@gmail.com","7890987656");
+insert into user_details values("C1004","Angel1236","Angel","Chennai","Angel@gmail.com","9888767890");
+insert into user_details values("C1005","Tom23467","Tom","Chennai","Tom@gmail.com","9876567809");
+insert into user_details values("C1006","Tim23478","Tim","Chennai","Tim@gmail.com","9098789098");
+insert into user_details values("C1007","Jerry1234","Jerry","Chennai","Jerry@gmail.com","9098789098");
+insert into user_details values("C1008","Jack1237","Jack","Chennai","Jack@gmail.com","9876567899");
+insert into user_details values("C1009","Robert123","Robert","Chennai","Robert@gmail.com","8790987678");
+insert into user_details values("C10010","Jack123","Jack","Chennai","Jack@gmail.com","9870980987");
 
-insert into flight_detailsinsert into flight_details(flight_id,airlines,source,destination,fare,flight_available_date,departure_time,arrival_time,
+insert into creditcard_details values("1234123412341234","Jack","313","123123","Jan","2020","15000");
+insert into creditcard_details values("8909876789095645","Joy","879","909890","Feb","2020","15000");
+insert into creditcard_details values("8766790098543212","John","876","987909","Mar","2020","15000");
+insert into creditcard_details values("8909876543456789","Tom","890","321456","Sep","2020","15000");
+insert into creditcard_details values("9098789098765434","Tim","844","678909","Jan","2020","15000");
+insert into creditcard_details values("8999087112343213","Robert","546","890987","Jan","2020","15000");
+insert into creditcard_details values("5678769909878932","Jerry","879","909876","Feb","2020","15000");
+insert into creditcard_details values("7776789098767890","Jack","443","909888","Oct","2020","15000");
+insert into creditcard_details values("9870987123456789","Jack","556","345671","Nov","2020","15000");
+insert into creditcard_details values("8909876543212345","Jack","809","567711","Dec","2020","15000");
+
+insert into flight_details(flight_id,airlines,source,destination,fare,flight_available_date,departure_time,arrival_time,
 seat_count)  values("F101","WingMeIn","Chennai","Noida",15000.00,
 DATE_ADD(CURDATE(), INTERVAL 2 MONTH) ,"08:15","16:45",15); 
 insert into flight_detailsinsert into flight_details(flight_id,airlines,source,destination,fare,flight_available_date,departure_time,arrival_time,
